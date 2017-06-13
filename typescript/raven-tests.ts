@@ -2,7 +2,7 @@ import Raven = require('..');
 
 Raven.config('https://public@sentry.io/1').install();
 
-var options = {
+var options: Raven.RavenOptions = {
     logger: 'my-logger',
     ignoreUrls: [
         /graph\.facebook\.com/i,

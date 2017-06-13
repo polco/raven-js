@@ -41,7 +41,7 @@
     "proxyquireify": "^3.0.2",
     "sinon": "1.7.3",
     "through2": "^2.0.0",
-    "typescript": "^1.8.10",
+    "typescript": "~2.3.4",
     "whatwg-fetch": "^1.0.0"
   },
   "keywords": [
